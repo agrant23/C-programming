@@ -16,7 +16,6 @@ void get_string (char *holder, int max_length)
         printf("Sorry, input is too long. Please enter less than %i characters: ", max_length + 1);
         gets(buffer);
     }
-
     strcpy(holder, buffer);
 }
 
